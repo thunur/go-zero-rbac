@@ -4,49 +4,49 @@
 使用jwt进行前端鉴权，redis缓存相关jwt数据。
 
 #### 软件架构
-软件架构说明
-├── admin 后端管理前端文件
-│   ├── Dockerfile
-│   ├── LICENSE
-│   ├── README.md
-│   ├── babel.config.js
-│   ├── nginx.conf
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── public
-│   ├── src
-│   ├── vue.config.js
-│   ├── yarn-error.log
-│   └── yarn.lock
-├── admin-api 后端交互api服务
-│   ├── Dockerfile
-│   ├── admin.go
-│   ├── assets
-│   ├── doc
-│   ├── etc
-│   └── internal
-├── go.mod
-├── go.sum
-├── rpc rpc相关业务
-│   ├── app rbac微服务
-│   ├── model model层
-│   ├── sys 系统层
-│   └── wechat 微信sdk相关业务
-├── server.shell etcd安装
-├── utils 工具类
-│   ├── cache
-│   ├── common
-│   ├── encryption
-│   ├── filter
-│   ├── gconv
-│   ├── prefix
-│   ├── sdk
-│   └── upload
-└── wechat-api 微信api业务服务
-    ├── doc
-    ├── etc
-    ├── internal
+
+├── admin 后端管理前端文件\
+│   ├── Dockerfile\
+│   ├── LICENSE\
+│   ├── README.md\
+│   ├── babel.config.js\
+│   ├── nginx.conf\
+│   ├── package-lock.json\
+│   ├── package.json\
+│   ├── postcss.config.js\
+│   ├── public\
+│   ├── src\
+│   ├── vue.config.js\
+│   ├── yarn-error.log\
+│   └── yarn.lock\
+├── admin-api 后端交互api服务\
+│   ├── Dockerfile\
+│   ├── admin.go\
+│   ├── assets\
+│   ├── doc\
+│   ├── etc\
+│   └── internal\
+├── go.mod\
+├── go.sum\
+├── rpc rpc相关业务\
+│   ├── app rbac微服务\
+│   ├── model model层\
+│   ├── sys 系统层\
+│   └── wechat 微信sdk相关业务\
+├── server.shell etcd安装\
+├── utils 工具类\
+│   ├── cache\
+│   ├── common\
+│   ├── encryption\
+│   ├── filter\
+│   ├── gconv\
+│   ├── prefix\
+│   ├── sdk\
+│   └── upload\
+└── wechat-api 微信api业务服务\
+    ├── doc\
+    ├── etc\
+    ├── internal\
     └── wechat.go
 
 #### 安装教程
