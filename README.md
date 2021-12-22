@@ -19,7 +19,7 @@
 │   ├── vue.config.js\
 │   ├── yarn-error.log\
 │   └── yarn.lock\
-├── admin-api 后端交互api服务\
+├── admin-api 后端交互api业务接口\
 │   ├── Dockerfile\
 │   ├── admin.go\
 │   ├── assets\
@@ -43,7 +43,7 @@
 │   ├── prefix\
 │   ├── sdk\
 │   └── upload\
-└── wechat-api 微信api业务服务\
+└── wechat-api 微信api相关业务接口\
     ├── doc\
     ├── etc\
     ├── internal\
